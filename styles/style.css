@@ -51,12 +51,34 @@ li {
   left: 46.24%;
   right: 46.24%;
   top: 16px;
-
-  background: url();
   border-radius: 0px;
 }
-.header__button header__button--instagramm {
+.header__icons-list {
+  display: flex;
+  background-color: white;
+}
+.header__icons {
+  position: absolute;
+  left: 1139px;
+  border: 0px;
+}
+.header__button {
+  border: 0px;
+}
+.header__button--instagramm {
+  width: 20px;
+  height: 20px;
   background-image: url(/Learn/assets/images/Headerimages/Inst.svg);
+}
+.header__button--search {
+  width: 20px;
+  height: 20px;
+  background-image: url(/Learn/assets/images/Headerimages/Share.svg);
+}
+.header__button--cart {
+  width: 20px;
+  height: 20px;
+  background-image: url(/Learn/assets/images/Headerimages/Lock.svg);
 }
 .intro {
   display: flex;
@@ -687,6 +709,7 @@ li {
   width: 1440px;
   height: 429px;
 }
+
 .Registr__User-header {
   position: absolute;
   top: 5725px;
@@ -737,35 +760,80 @@ li {
   background-color: #000000;
   border: 0;
 }
-.footer__Logo-letter-t,
-.footer__Logo-letter-h,
-.footer__Logo-letter-a,
-.footer__Logo-letter-l,
-.footer__Logo-letter-b,
-.footer__Logo-letter-y {
+.footer__Logo {
   position: absolute;
   top: 6126px;
-  border-radius: 0px;
-  width: 20px;
-  height: 20px;
+  left: 173px;
+  width: 129px;
+  height: 41px;
 }
-.footer__Logo-letter-t {
-  left: 181.7px;
+.footer__Social-Logo {
+  display: inline-block;
+  border: 0px;
 }
-.footer__Logo-letter-h {
-  height: 32.10000228881836px;
-  width: 22.21999740600586px;
-  left: 196.8px;
+.footer__Social-facebook {
+  margin-left: 130px;
 }
-.footer__Logo-letter-a {
-  left: 220.84px;
+.footer__Social-instagram {
+  margin-top: 129px;
+  margin-left: 23px;
+  margin-right: 21px;
 }
-.footer__Logo-letter-l {
-  left: 243.81px;
+.footer__link {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.footer__Logo-letter-b {
-  left: 253.43px;
+.footer__link-list-ABOUT {
+  position: absolute;
+  top: 6126px;
+  left: 887px;
+  line-height: 23px;
 }
-.footer__Logo-letter-y {
-  left: 276.71px;
+.footer__link-list-CONTACT {
+  position: absolute;
+  top: 6126px;
+  left: 1102px;
+  line-height: 23px;
+}
+.footer__link-list-AboutUs,
+.footer__link-list-PrivacyPolicy,
+.footer__link-list-TermsandConditions,
+.footer__link-list-WriteforUs {
+  position: absolute;
+  left: 887px;
+}
+.footer__link-list-Email,
+.footer__link-list-Help {
+  position: absolute;
+  left: 1102px;
+}
+.footer__link-list-Email,
+.footer__link-list-AboutUs {
+  top: 6186px;
+}
+.footer__link-list-PrivacyPolicy,
+.footer__link-list-Help {
+  top: 6219px;
+}
+.footer__link-list-TermsandConditions {
+  top: 6252px;
+}
+.footer__link-list-WriteforUs {
+  top: 6285px;
+}
+.footer__outro-logo {
+  position: absolute;
+  top: 6326px;
+  left: 660px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
 }
