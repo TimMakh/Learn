@@ -1,5 +1,6 @@
 html {
   font-family: "Roboto";
+  width: 1440px;
 }
 li {
   list-style-type: none;
@@ -8,7 +9,6 @@ li {
   display: flex;
   justify-content: space-between;
   height: 56px;
-  width: 1440px;
 
   align-items: center;
   border: 0;
@@ -81,8 +81,8 @@ li {
   background-image: url(/Learn/assets/images/Headerimages/Lock.svg);
 }
 .intro {
+  position: relative;
   display: flex;
-  width: 1440px;
   height: 554px;
   background-color: #f0efeb;
   border: 0;
@@ -90,12 +90,10 @@ li {
 .intro__title {
   width: 534px;
   height: 210px;
-  position: absolute;
   height: 140px;
-  left: 188px;
-  right: 718px;
-  top: 146px;
-  bottom: 6080px;
+  padding: 0px;
+  margin-top: 90px;
+  margin-left: 188px;
 
   font-style: normal;
   font-weight: 700;
@@ -103,54 +101,40 @@ li {
   line-height: 70px;
 }
 .intro__description {
-  position: absolute;
+  margin-top: 42px;
+  margin-left: 188px;
   height: 56px;
-  left: 188px;
-  right: 771px;
-  top: 402px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
 }
 .intro__link {
-  position: absolute;
+  margin-top: 33px;
+  margin-left: 211px;
   height: 36px;
   width: 129px;
-  left: 211px;
-  right: 1146px;
-  top: 491px;
   text-decoration: none;
   text-align: center;
-
   background: #000000;
   border: 1px solid #000000;
   border-radius: 100px;
 }
 .intro__image {
-  position: absolute;
-  left: 781px;
-  top: 65px;
-  right: 60px;
-  bottom: 5785px;
+  margin-left: 59px;
+  margin-top: 9px;
 }
 .about {
   display: flex;
-  width: 1440px;
   height: 1274px;
   border: 0;
 }
 .about__title--up {
-  position: absolute;
+  margin-top: 60px;
+  margin-left: 374px;
   height: 42px;
   width: 692px;
-  left: 374px;
-  right: 374px;
-  top: 670px;
-  bottom: 5654px;
   border-radius: nullpx;
-
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -158,15 +142,11 @@ li {
   text-align: center;
 }
 .about__description {
-  position: absolute;
+  margin-top: 27px;
+  margin-left: 404px;
   height: 69px;
   width: 632px;
-  left: 404px;
-  right: 404px;
-  top: 739px;
-  bottom: 5558px;
   border-radius: nullpx;
-
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
@@ -174,15 +154,11 @@ li {
   text-align: center;
 }
 .about__extra {
-  position: absolute;
+  margin-top: 47px;
+  margin-left: 535px;
   height: 23px;
   width: 371px;
-  left: 535px;
-  right: 534px;
-  top: 855px;
-  bottom: 5488;
   border-radius: nullpx;
-
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
@@ -190,15 +166,11 @@ li {
   text-align: center;
 }
 .about__title--down {
-  position: absolute;
+  margin-top: 88px;
+  margin-left: 592px;
   height: 42px;
   width: 256px;
-  left: 592px;
-  right: 592px;
-  top: 966px;
-  bottom: 5358px;
   border-radius: nullpx;
-
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -313,7 +285,7 @@ li {
 }
 .Card1 {
   display: flex;
-  width: 1440px;
+
   height: 652px;
   background: rgba(204, 204, 204, 0.3);
   border-radius: 0px;
@@ -374,7 +346,7 @@ li {
 }
 .Card2 {
   display: flex;
-  width: 1440px;
+
   height: 652px;
   background: rgba(204, 204, 204, 0.6);
   border-radius: 0px;
@@ -428,7 +400,7 @@ li {
 }
 .Card3 {
   display: flex;
-  width: 1440px;
+
   height: 652px;
   background: rgba(204, 204, 204, 0.3);
   border-radius: 0px;
@@ -482,7 +454,7 @@ li {
 }
 .info {
   display: flex;
-  width: 1440px;
+
   height: 1326px;
   border-radius: 0px;
 }
@@ -602,7 +574,6 @@ li {
 }
 .Peoples {
   display: flex;
-  width: 1440px;
   height: 480px;
   background-color: #f0f0f0;
   border: 0;
@@ -704,19 +675,17 @@ li {
   left: 1071px;
 }
 .Registr {
+  position: relative;
   display: flex;
   border: 0;
-  width: 1440px;
   height: 429px;
 }
 
 .Registr__User-header {
-  position: absolute;
-  top: 5725px;
+  margin-top: 79px;
+  margin-left: 606px;
   width: 229px;
   height: 42px;
-  left: 606px;
-
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -724,25 +693,25 @@ li {
   text-align: center;
 }
 .Registr__User-info {
-  position: absolute;
-  top: 5800px;
+  margin-top: 9px;
+  margin-left: 472px;
   width: 496px;
   height: 40px;
-  left: 472px;
-
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
 }
+.Registr__FirstName {
+  margin-top: 26px;
+  margin-left: 537px;
+}
 .Registr__User-link {
-  position: absolute;
-  left: 686px;
-  top: 5961px;
+  margin-bottom: 88px;
+  margin-left: 663px;
   width: 69px;
   height: 16px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -755,7 +724,6 @@ li {
 }
 .footer {
   display: flex;
-  width: 1440px;
   height: 291px;
   background-color: #000000;
   border: 0;
