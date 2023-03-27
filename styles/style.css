@@ -1,11 +1,12 @@
 html {
   font-family: "Roboto";
-  width: 1440px;
+  max-width: 1440px;
 }
 li {
   list-style-type: none;
 }
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   height: 56px;
@@ -16,51 +17,29 @@ li {
 .header__item-list {
   display: flex;
   align-items: center;
-  padding-left: 188px;
-  padding-right: 857px;
+  margin-left: 188px;
 }
 .header__item {
-  padding-top: 15px;
-  padding-left: 0px;
-  padding-right: 28px;
-  padding-bottom: 14px;
+  margin-right: 28px;
   font-size: 16px;
   font-weight: 700px;
   line-height: 26.4px;
   list-style-type: none;
-
-  max-height: 27px;
-}
-.header__item-problem/*Просто уже не знал как сделать если делать как по макету, то этот элемент встает в 2-3 строчки*/ {
-  min-width: 154px;
-  padding-top: 15px;
-  padding-left: 0px;
-  padding-right: 28px;
-  padding-bottom: 14px;
-  font-size: 16px;
-  font-weight: 700px;
-  line-height: 26.4px;
-  list-style-type: none;
-
   max-height: 27px;
 }
 
 .header__logo {
-  position: absolute;
-  height: 25px;
-  left: 46.24%;
-  right: 46.24%;
-  top: 16px;
-  border-radius: 0px;
+  margin-right: 280px;
 }
 .header__icons-list {
   display: flex;
   background-color: white;
 }
 .header__icons {
-  position: absolute;
-  left: 1139px;
-  border: 0px;
+  margin-right: 192px;
+}
+.header__icons-item {
+  margin-right: 26px;
 }
 .header__button {
   border: 0px;
