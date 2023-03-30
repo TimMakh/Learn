@@ -17,7 +17,7 @@ li {
 .header__item-list {
   display: flex;
   align-items: center;
-  margin-left: 188px;
+  /* margin-left: 188px; */
 }
 .header__item {
   margin-right: 28px;
@@ -41,24 +41,37 @@ li {
 .header__icons-item {
   margin-right: 26px;
 }
+
 .header__button {
   border: 0px;
+  position: relative;
 }
-.header__button--instagramm {
+
+.header__button:before {
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   width: 20px;
   height: 20px;
-  background-image: url(/Learn/assets/images/Headerimages/Inst.svg);
 }
-.header__button--search {
-  width: 20px;
-  height: 20px;
-  background-image: url(/Learn/assets/images/Headerimages/Share.svg);
+
+.header__button--instagramm::before {
+  background-image: url('/src/assets/images/Headerimages/Inst.svg');
 }
-.header__button--cart {
-  width: 20px;
-  height: 20px;
-  background-image: url(/Learn/assets/images/Headerimages/Lock.svg);
+
+.header__button--search:before {
+  background-image: url('/src/assets/images/Headerimages/search.svg');
 }
+
+.header__button--cart:before {
+  background-image: url('/src/assets/images/Headerimages/cart.svg');
+}
+
 .intro {
   position: relative;
   display: flex;
