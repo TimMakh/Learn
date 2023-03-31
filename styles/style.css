@@ -606,7 +606,7 @@ li {
 }
 .footer__Social-Logo {
   display: flex;
-  border: 0px;
+  border: 0;
   margin: 0;
   padding: 0;
   margin-right: 23px;
