@@ -390,6 +390,7 @@ li {
   border-radius: 0px;
   padding-top: 190px;
   padding-left: 322px;
+  padding-right: 263px;
 }
 .info__header {
   height: 42px;
@@ -403,23 +404,34 @@ li {
   margin: 0;
   margin-bottom: 69px;
 }
+.info__header-text {
+  margin: 0;
+  margin-bottom: 69px;
+}
 .info__main-blocks {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 .info__main-block {
   display: inline-block;
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  margin-bottom: 26px;
 }
 .info__main-block-li {
   height: 167px;
   width: 189px;
-  margin-right: 140px;
-  margin-bottom: 111px;
+  margin-right: 50px;
+  margin-bottom: 164px;
 }
 .Image1 {
   background-color: #21f7ec;
@@ -569,9 +581,29 @@ li {
   margin: 0;
   margin-bottom: 26px;
 }
+.Registr__Userform_InputLastNameFirstName {
+  box-sizing: border-box;
+  width: 153px;
+  height: 39px;
+  margin-right: 55px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  margin-bottom: 18px;
+}
+.Registr__FirstName__LastName {
+  box-sizing: border-box;
+  padding-left: 65px;
+}
 .Registr__Email {
+  box-sizing: border-box;
+  padding-left: 65px;
+}
+.Registr__Userform_InputEmail {
+  box-sizing: border-box;
   width: 366px;
   height: 39px;
+  border: 1px solid #000000;
+  border-radius: 0px;
   margin-bottom: 23px;
 }
 .Registr__User-link1 {
@@ -591,7 +623,7 @@ li {
   color: #ffffff;
 }
 .footer {
-  position: relative;
+  display: flex;
   height: 291px;
   background-color: #000000;
   border: 0;
@@ -599,40 +631,48 @@ li {
   padding-top: 51px;
   box-sizing: border-box;
 }
-.footer__Logo {
-  width: 129px;
-  height: 41px;
-  margin-bottom: 37px;
-}
-.footer__Social-Logo {
-  display: flex;
-  border: 0;
+.footer__Logos {
   margin: 0;
   padding: 0;
+}
+.footer__Logo {
+  margin-bottom: 37px;
+  margin-right: 359px;
+}
+.footer__Social-facebook,
+.footer__Social-instagram {
   margin-right: 23px;
 }
-
-.footer__link {
-  position: relative;
-  display: flex;
-  color: white;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
-  justify-content: right;
-}
 .footer__link-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+.Ones-column,
+.Twos-column {
   margin: 0;
   padding: 0;
 }
-.footer__outro-logo {
+.footer__link-list-1 {
+  margin-right: 168px;
+  margin-bottom: 36px;
+}
+.footer__link-list-2 {
+  margin-bottom: 36px;
+}
+.footer__link-list {
+  margin-bottom: 12px;
+}
+.footer__outro {
+  box-sizing: border-box;
+  padding-top: 200px;
   font-size: 14px;
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
   color: white;
-  padding-left: 677px;
+  margin-right: 107px;
 }
