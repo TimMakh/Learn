@@ -52,19 +52,9 @@ li {
 }
 .header__button {
   border: 0px;
-}
-.header__button {
   width: 20px;
   height: 20px;
-}
-.header__button--instagramm::before {
-  background-image: url(/Learn/assets/images/header_images/Inst.svg);
-}
-.header__button--search::before {
-  background-image: url(/Learn/assets/images/header_images/Share.svg);
-}
-.header__button--cart::before {
-  background-image: url(/Learn/assets/images/header_images/Lock.svg);
+  background-color: transparent;
 }
 .intro {
   position: relative;
